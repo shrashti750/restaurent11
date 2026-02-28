@@ -4,6 +4,7 @@ li{
 
 ul{
     font-family: "Roboto", sans-serif;
+    padding:0;
 }
 .container {
     margin: 0 auto;
@@ -65,8 +66,99 @@ a.gg {
     border-radius: 20px;
     border: 2px solid #cda45e;
     padding-inline: 23px;
+     font-family:"Roboto", sans-serif;
 }
 .seven {
     padding-top: 5rem;
     margin-top: 5rem;
+}
+span.dd {
+    color: #cda45e;
+}
+h1.kk {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+}
+p.para1 {
+    color: #ffffff;
+    font-size: 24px;
+    font-family:"Roboto", sans-serif;
+}
+a.Eight {
+    color: #ffffff;
+    border: 2px solid #cda45e;
+    border-radius: 20px;
+    padding-inline: 22px;
+    padding-block: 10px;
+    font-family:"Roboto", sans-serif;
+}
+img {
+    width: 500px;
+    border: 6px solid rgba(255, 255, 255, 0.7);
+    transition: 0.3s;
+}
+img:hover {
+    transform: scale(1.03);
+}
+.box1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+h2 {
+    color: #ffffff;
+    font-weight: 700;
+}
+p.para3 {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: "Roboto", sans-serif;
+}
+p.para4 {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: "Roboto", sans-serif;
+    line-height:1.65;
+}
+li {
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 2;
+}
+i.fa-solid.fa-check-double {
+    color: #cda45e;
+}
+.box5 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+}
+a.box6 {
+    background-color: #cda45e;
+    color: #ffffff;
+    border-radius: 50%;
+    padding: 25px;
+}
+.nine {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    margin-top: 3rem;
+}
+i.fa-solid.fa-play::after {
+    content: " ";
+    position: absolute;
+    transform: translateX(-40%) translateY(-50%);
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+
+    transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+p.para5 {
+    color: #cda45e;
+}
+section.banner-section2 {
+    background-color: #0c0b09;
+}
+h3 {
+    color: #ffffff;
 }

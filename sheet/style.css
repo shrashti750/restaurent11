@@ -210,6 +210,7 @@ h2.mm {
 section.banner-section4{
     background-color: color-mix(in srgb,#0c0b09  90%, white 5%);
     padding-top:3rem;
+    padding-bottom:3rem;
 }
 ul.twenty {
     display: flex;
@@ -226,7 +227,109 @@ a.gg:hover {
 a.Eight:hover{
      background-color: #cda45e;
 }
+.box55 {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    font-family: "Roboto", sans-serif;
+    justify-content:center;
+    gap:38px;
+}
+.box56 {
+    display: flex;
+    gap: 35px;
+}
+a.box57 {
+    color: #ffffff;
+    background-color: #0c0b09;
+    
+}
+span.box58 {
+    color: #cda45e;
+    background-color: #0c0b09;
+}
 img.four {
-    height: 50px;
-    width: 50px;
+    border: 8px solid color-mix(in srgb, rgba(255, 255, 255, 0.7), transparent 90%);
+    border-radius: 50%;
+    width:80px;
+}
+p.box59 {
+    font-style: italic;
+    font-size: 14px;
+    color: color-mix(in srgb, rgba(255, 255, 255, 0.7), transparent 50%);
+}
+.box60 {
+    display: flex;
+    justify-content:space-between;
+}
+section.banner-section5 {
+    background-color: #0c0b09;
+    padding-top:3rem;
+}
+a.box63 {
+    background-color: #cda45e;
+    color: #0c0b09;
+    padding-right: 7rem;
+    padding-block: 15px;
+}
+a.box64 {
+    color: #ffffff;
+}
+p.box71{
+ color:color-mix(in srgb,rgba(255, 255, 255, 0.7),transparent 20%);
+ font-family: "Roboto", sans-serif;
+ line-height:1.55;
+ font-style:italic;
+}
+p.box72{
+    color:color-mix(in srgb,rgba(255, 255, 255, 0.7),transparent 20%);
+    font-family: "Roboto", sans-serif;
+    line-height:1.55;
+}
+img.box73 {
+    width: 250px;
+}
+.box77 {
+    display: grid;
+    grid-template-columns: 55% 45%;
+}
+.box70 {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    gap: 58px;
+}
+ul.box66 {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    border-right: 2px solid #cda45e;
+}
+li.fift {
+    line-height: 2.75;
+}
+img.box113 {
+    width:400px;
+    height: 250px;
+}
+a.box64:hover {
+    color:#cda45e;
+}
+p.ninetwo {
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-style:italic;
+    
+}
+p.ninethree{
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    
+}
+ul.ninee{
+     font-family: "Roboto", sans-serif;
+}
+.ninefour {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
 }

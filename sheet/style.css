@@ -217,6 +217,7 @@ ul.twenty {
     justify-content: center;
     align-items: center;
     gap: 25px;
+    margin-bottom:3rem;
 }
 a.ten:hover {
     color: #cda45e;
@@ -307,8 +308,8 @@ li.fift {
     line-height: 2.75;
 }
 img.box113 {
-    width:400px;
-    height: 250px;
+    width: 523px;
+    height: 332px;
 }
 a.box64:hover {
     color:#cda45e;
@@ -326,10 +327,159 @@ p.ninethree{
 }
 ul.ninee{
      font-family: "Roboto", sans-serif;
+     padding-left:0;
 }
 .ninefour {
     display: grid;
     grid-template-columns: 50% 50%;
     justify-content: center;
     align-items: center;
+}
+i.fa-regular.fa-circle-check {
+    color: #cda45e;
+}
+span.nineone {
+    color: #ffffff;
+    font-size: 32px;
+}
+.sevenone {
+    display: flex;
+    justify-content: center;
+}
+li.seventwo {
+    color: #ffffff;
+}
+.sixty {
+    height: 10;
+    width: 10;
+    background-color: #cda45e;
+    border-radius: 50%;
+}
+.whh {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+a.fifteen {
+    color: rgba(255, 255, 255, 0.7);
+}
+a.fifteen:hover{
+    color:#cda45e;
+}
+a.fifteenn{
+    color:#cda45e;
+}
+section.banner-section7{
+    background-color: #0c0b09;
+    padding-top:3rem;
+}
+h2.fourty:after {
+    position: absolute;
+    content: " ";
+    left: 196px;
+}
+h2.fourty{
+    position:relative;
+}
+.qq {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 18px;
+    justify-content: center;
+}
+input#name{
+    background-color: #0c0b09;
+    border: 1px solid color-mix(in srgb,rgba(255, 255, 255, 0.7) , transparent 80%);
+    height:40px;
+}
+input#email{
+    background-color: #0c0b09;
+     border: 1px solid color-mix(in srgb,rgba(255, 255, 255, 0.7) , transparent 80%);
+     height:40px;
+}
+
+input#tel{
+    background-color: #0c0b09;
+     border: 1px solid color-mix(in srgb,rgba(255, 255, 255, 0.7) , transparent 80%);
+     height:40px;
+}
+input#date{
+    background-color: #0c0b09;
+     border: 1px solid color-mix(in srgb,rgba(255, 255, 255, 0.7) , transparent 80%);
+     height:40px;
+}
+input#time{
+    background-color: #0c0b09;
+     border: 1px solid color-mix(in srgb,rgba(255, 255, 255, 0.7) , transparent 80%);
+     height:40px;
+}
+input#number{
+    background-color: #0c0b09;
+     border: 1px solid color-mix(in srgb,rgba(255, 255, 255, 0.7) , transparent 80%);
+     height:40px;
+}
+
+textarea{
+      background-color: #0c0b09;
+       border: 1px solid color-mix(in srgb,rgba(255, 255, 255, 0.7) , transparent 80%);
+}
+.btnbtn {
+    display: flex;
+    justify-content: center;
+}
+button.btnn {
+    background-color: #0c0b09;
+    border: 2px solid #cda45e;
+    border-radius: 35px;
+    height: 41px;
+    width: 167px;
+}
+a.lastt{
+ color: rgba(255, 255, 255, 0.7);
+}
+p.para15 {
+    color: color-mix(in srgb, rgba(255, 255, 255, 0.7), transparent 30%);
+    font-family: "Roboto", sans-serif;
+    width: 80%;
+    line-height: 1.50;
+    font-style: italic;
+}
+img.non {
+    width: 100px;
+    border-radius: 50%;
+}
+.sixthh {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    gap: 10px;
+}
+h4.asd{
+     color: color-mix(in srgb, rgba(255, 255, 255, 0.7), transparent 30%);
+}
+div.seventyy{
+    height:10px;
+    width:10px;
+    border:1px solid #cda45e;
+    border-radius:50%;
+
+}
+div.whhh{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+}
+div.seventyys{
+    height:10px;
+    width:10px;
+    background-color: #cda45e;
+    border-radius:50%;
+
+}
+section.banner-section8 {
+    background-color: #0c0b09;
+}
+img.hun {
+    width: 200px;
 }

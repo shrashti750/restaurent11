@@ -24,6 +24,8 @@ body{
     justify-content: space-between;
     align-items:center;
     height:40px;
+    position:absolute;
+    width:90%;
 }
 
 span.last10 {
@@ -65,7 +67,7 @@ ul.nonethe {
     background-color: #29261f;
     position: absolute;
     right: 326px;
-    top: 118px;
+    top: 66px;
     transition: 0.3s;
     width: 143px;
     padding-left: 35px;
@@ -85,9 +87,15 @@ a.box33 {
     height:80px;
 }
 header {
-    position: absolute;
+    position: sticky;
     Z-index: 999;
     width: 100%;
+    top: -39px;
+}
+.none200 {
+    position: absolute;
+    width: 100%;
+    top: 40px;
 }
 logo {
     font-size: 30px;
@@ -149,9 +157,9 @@ img.second:hover {
     animation: fadeInUp 1s forwards;
     opacity: 0;
     transform: translateY(50px);
-
+    padding-top: 4rem;
+    padding-bottom: 3rem;
 }
-
 @keyframes fadeInUp{
     to{
         opacity:1;
@@ -182,6 +190,7 @@ p.para4 {
 li {
     color: rgba(255, 255, 255, 0.7);
     line-height: 2;
+    font-family: "Roboto", sans-serif;
 }
 i.fa-solid.fa-check-double {
     color: #cda45e;
@@ -232,7 +241,7 @@ h3 {
 }
 p.para6 {
     color: color-mix(in srgb, rgba(255, 255, 255, 0.7),transparent 30%);
-    width: 73%;
+    width: 86%;
     font-family: "Roboto", sans-serif;
     line-height:1.5;
 }
@@ -280,6 +289,7 @@ section.banner-section4 {
 .notgg {
     background-color: color-mix(in srgb, #0c0b09 90%, white 5%);
     padding-top:3rem;
+    padding-bottom:4rem;
 }
 ul.twenty {
     display: flex;
@@ -317,6 +327,7 @@ a.box57 {
 span.box58 {
     color: #cda45e;
     background-color: #0c0b09;
+    font-weight:600;
 }
 img.four {
     border: 8px solid color-mix(in srgb, rgba(255, 255, 255, 0.7), transparent 90%);
@@ -481,11 +492,15 @@ input#date{
     background-color: #0c0b09;
      border: 1px solid color-mix(in srgb,rgba(255, 255, 255, 0.7) , transparent 80%);
      height:40px;
+     color:#ffffff;
+     padding-left:10px;
 }
 input#time{
     background-color: #0c0b09;
      border: 1px solid color-mix(in srgb,rgba(255, 255, 255, 0.7) , transparent 80%);
      height:40px;
+     color:#ffffff;
+     padding-left:10px;
 }
 input#number{
     background-color: #0c0b09;
@@ -500,6 +515,7 @@ textarea{
 .btnbtn {
     display: flex;
     justify-content: center;
+    padding-bottom:5rem;
 }
 button.btnn {
     background-color: #0c0b09;
@@ -535,6 +551,7 @@ img.non {
 }
 h4.asd{
      color: color-mix(in srgb, rgba(255, 255, 255, 0.7), transparent 30%);
+     margin-top:0px;
 }
 div.seventyy{
     height:10px;
@@ -633,7 +650,9 @@ h2.term::after {
 }
 .last8 {
     transform: translateY(11%);
-    transition:0.5s;
+    transition: 0.5s;
+    padding-left: 12px;
+    padding-bottom: 33px;
 }
 p.para155 {
     font-family: "Roboto", sans-serif;
@@ -644,6 +663,16 @@ p.para155 {
     padding: 18px;
     width: 73%;
     color: rgba(255, 255, 255, 0.7);
+}
+p.para156 {
+    background-color: color-mix(in srgb, #0c0b09 90%, white 5%);
+    color: rgba(255, 255, 255, 0.7);
+    padding: 18px;
+    line-height: 1.50;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    width: 73%;
+    margin-bottom:0px;
 }
 iframe {
     width: 100%;
@@ -657,14 +686,17 @@ iframe {
 i.fa-solid.fa-location-arrow {
     background-color: #cda45e;
     padding: 10px;
+    border-radius:2px;
 }
 i.fa-solid.fa-phone {
     background-color: #cda45e;
     padding: 10px;
+    border-radius:2px;
 }
 i.fa-regular.fa-envelope {
     background-color: #cda45e;
     padding: 10px;
+    border-radius:2px;
 }
 p.para8 {
     color: rgba(255, 255, 255, 0.7);
@@ -718,7 +750,7 @@ a.box162 {
 }
 .box177 {
     display: grid;
-    grid-template-columns: 20% 20% 20% 30%;
+    grid-template-columns: 25% 20% 20% 30%;
     justify-content: center;
 }
 .box178 {
@@ -771,15 +803,14 @@ button.btnnss {
     border:1px solid #cda45e;
 }
 button.btnnss {
-    width: 142px;
+    width: 177px;
     padding-block: 5px;
-    padding-inline: 10px;
-    border: 1px solid #cda45e;
+    border: 2px solid #cda45e;
     background-color: #0c0b09;
     color: rgba(255, 255, 255, 0.7);
     border-radius: 33px;
-    height: 42px;
-    transition:0.5s;
+    height: 49px;
+    transition: 0.5s;
 }
 input.sixtythree {
     background-color: #0c0b09;
@@ -803,6 +834,7 @@ textarea.sixtyfour::placeholder{
 }
 .btnfir {
     text-align: center;
+    margin-bottom:35px;
 }
 a.last2 {
     color: #cda45e;
@@ -906,4 +938,10 @@ h3.last55 {
 .farthest {
     background-color: color-mix(in srgb,#0c0b09 90%, white 5%);
     padding-top:3rem;
+}
+a.last30:hover {
+    color: #cda45e;
+}
+h3.mm {
+    font-size: 28px;
 }

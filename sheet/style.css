@@ -9,7 +9,7 @@ ul.five{
 .container {
     margin: 0 auto;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1138px;
 }
 ul.one {
     display: inline-flex;
@@ -26,6 +26,7 @@ body{
     height:40px;
     position:absolute;
     width:90%;
+    font-size:14px;
 }
 
 span.last10 {
@@ -71,6 +72,7 @@ ul.nonethe {
     transition: 0.3s;
     width: 143px;
     padding-left: 35px;
+    line-height:2;
 }
 li.aa:hover ul.nonethe {
     opacity:1;
@@ -79,12 +81,14 @@ li.aa:hover ul.nonethe {
 a.box33 {
     color: #ffffff;
 }
+
 .six {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     background-color: rgba(12, 11, 9, 0.61);
-    height:80px;
+    height: 80px;
+    gap: 70px;
 }
 header {
     position: sticky;
@@ -101,6 +105,7 @@ logo {
     font-size: 30px;
     color: #ffffff;
     font-weight: 700;
+    padding-left:22px;
 }
 a.ten {
     color: #ffffff;
@@ -128,10 +133,11 @@ h1.kk {
     margin: 0;
 }
 p.para1 {
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.7);
     font-size: 24px;
-    font-family:"Roboto", sans-serif;
-    margin-bottom:32px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 32px;
+    margin-top:2px;
 }
 a.Eight {
     color: #ffffff;
@@ -141,12 +147,14 @@ a.Eight {
     padding-block: 10px;
     font-family: "Roboto", sans-serif;
     transition: 0.5s;
-    text-transform:uppercase;
+    text-transform: uppercase;
+    font-size: 14px;
 }
+
 img.second {
-    width: 500px;
     border: 6px solid color-mix(in srgb, rgba(255, 255, 255, 0.7), transparent 80%);
     transition: 0.3s;
+    height: 401;
 }
 img.second:hover {
     transform: scale(1.03);
@@ -177,20 +185,27 @@ h2 {
 h3.para44 {
     margin-top: 17px;
 }
+
 p.para3 {
     font-family: "Roboto", sans-serif;
-    color: color-mix(in srgb, rgba(255, 255, 255, 0.7),transparent 30%);
-    font-style:italic;
+    font-style: italic;
+    line-height: 1.70;
+    width: 91%;
+    margin-top: 5px;
+    color: color-mix(in srgb,rgba(255, 255, 255, 0.7) , #0c0b09 50%);
 }
 p.para4 {
     color: rgba(255, 255, 255, 0.7);
     font-family: "Roboto", sans-serif;
     line-height:1.65;
+    width:91%;
 }
 li {
     color: rgba(255, 255, 255, 0.7);
-    line-height: 2;
     font-family: "Roboto", sans-serif;
+}
+li.content {
+    line-height: 2.30;
 }
 i.fa-solid.fa-check-double {
     color: #cda45e;
@@ -208,6 +223,7 @@ a.box6 {
     border-radius: 50%;
     padding: 25px;
 }
+
 .nine {
     display: flex;
     justify-content: center;
@@ -249,6 +265,7 @@ span.third{
     color: #cda45e;
     font-size: 26px;
     font-family: "Roboto", sans-serif;
+    font-weight:bold;
 }
 .box9 {
     display: flex;
@@ -258,6 +275,7 @@ span.third{
     padding-block:20px;
     position:relative;
     transition:0.5s;
+    cursor:pointer;
 }
 .box9:hover {
     background-color: #cda45e;
@@ -338,6 +356,7 @@ p.box59 {
     font-style: italic;
     font-size: 14px;
     color: color-mix(in srgb, rgba(255, 255, 255, 0.7), transparent 50%);
+    margin-top:5px;
 }
 section.banner-section5 {
     background-color: #0c0b09;
@@ -346,7 +365,7 @@ section.banner-section5 {
 a.box63 {
     background-color: #cda45e;
     color: #0c0b09;
-    padding-right: 7rem;
+    padding-right: 11rem;
     padding-block: 15px;
     padding-left:10px;
 }
@@ -370,7 +389,9 @@ img.box73 {
 }
 .box77 {
     display: grid;
-    grid-template-columns: 55% 45%;
+    grid-template-columns: 66% 35%;
+    justify-content: center;
+    align-items: center;
 }
 .box70 {
     display: grid;
@@ -383,6 +404,7 @@ ul.box66 {
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     border-right: 2px solid #cda45e;
+
 }
 li.fift {
     line-height: 2.75;
@@ -409,6 +431,7 @@ p.ninethree{
 ul.ninee{
      font-family: "Roboto", sans-serif;
      padding-left:0;
+     line-height:2;
 }
 .ninefour {
     display: grid;
@@ -416,6 +439,7 @@ ul.ninee{
     justify-content: center;
     align-items: center;
     padding-top:4rem;
+    gap:20px;
 }
 i.fa-regular.fa-circle-check {
     color: #cda45e;
@@ -488,18 +512,18 @@ input#tel{
      border: 1px solid color-mix(in srgb,rgba(255, 255, 255, 0.7) , transparent 80%);
      height:40px;
 }
-input#date{
+input#date {
     background-color: #0c0b09;
-     border: 1px solid color-mix(in srgb,rgba(255, 255, 255, 0.7) , transparent 80%);
-     height:40px;
-     color:#ffffff;
-     padding-left:10px;
+    border: 1px solid color-mix(in srgb,rgba(255, 255, 255, 0.7) , transparent 80%);
+    height: 40px;
+    padding-left: 10px;
+    color: rgba(255, 255, 255, 0.7);
 }
 input#time{
     background-color: #0c0b09;
      border: 1px solid color-mix(in srgb,rgba(255, 255, 255, 0.7) , transparent 80%);
      height:40px;
-     color:#ffffff;
+     color:rgba(255, 255, 255, 0.7);
      padding-left:10px;
 }
 input#number{
@@ -545,7 +569,7 @@ img.non {
 }
 .sixthh {
     display: grid;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 32% 32% 32%;
     justify-content: center;
     gap: 10px;
 }
@@ -621,13 +645,15 @@ section.banner-section10 {
     padding-bottom: 3rem;
 }
 p.para155{
-     background-color: color-mix(in srgb,#0c0b09 90%, white 5%);
+     background-color:color-mix(in srgb, rgba(255, 255, 255, 0.7), transparent 97%);
 }
 i.fa-solid.fa-quote-left {
    color: color-mix(in srgb, #cda45e, transparent 50%);
+   padding-right:10px;
 }
 i.fa-solid.fa-quote-right {
      color: color-mix(in srgb, #cda45e, transparent 50%);
+     padding-left:10px;
 }
 
 h2.term::after {
@@ -663,16 +689,17 @@ p.para155 {
     padding: 18px;
     width: 73%;
     color: rgba(255, 255, 255, 0.7);
+    padding:20px;
 }
 p.para156 {
-    background-color: color-mix(in srgb, #0c0b09 90%, white 5%);
+    background-color: color-mix(in srgb, rgba(255, 255, 255, 0.7), transparent 97%);
     color: rgba(255, 255, 255, 0.7);
-    padding: 18px;
+    padding: 20px;
     line-height: 1.50;
     font-family: "Roboto", sans-serif;
     font-style: italic;
-    width: 73%;
-    margin-bottom:0px;
+    width: 70%;
+    margin-bottom: 0px;
 }
 iframe {
     width: 100%;
@@ -682,11 +709,6 @@ iframe {
     align-items: center;
     gap: 20px;
     margin-bottom:30px;
-}
-i.fa-solid.fa-location-arrow {
-    background-color: #cda45e;
-    padding: 10px;
-    border-radius:2px;
 }
 i.fa-solid.fa-phone {
     background-color: #cda45e;
@@ -734,6 +756,11 @@ input#text {
 }
 p.para10 {
     color: rgba(255, 255, 255, 0.7);
+    font-size:14px;
+}
+i.fa-solid.fa-envelope {
+    color: #cda45e;
+    padding-right: 4px;
 }
 .box100 {
     color: rgba(255, 255, 255, 0.7);
@@ -750,7 +777,7 @@ a.box162 {
 }
 .box177 {
     display: grid;
-    grid-template-columns: 25% 20% 20% 30%;
+    grid-template-columns: 32% 16% 16% 29%;
     justify-content: center;
 }
 .box178 {
@@ -763,15 +790,18 @@ button.btnns {
 }
 h3.jhg {
     margin-top: 18px;
+    margin-bottom: 3rem;
 }
-li.box161{
+li.box161 {
     font-family: "Roboto", sans-serif;
-    line-height:2.15;
+    line-height: 2.15;
+    font-size: 15px;
 }
 p.para199 {
     color: rgba(255, 255, 255, 0.7);
      font-family: "Roboto", sans-serif; 
-     font-size:16px;   
+     font-size:14px;
+     line-height:1.60;
 }
 .box811 {
     border: 1px solid rgba(255, 255, 255, 0.7);
@@ -811,6 +841,7 @@ button.btnnss {
     border-radius: 33px;
     height: 49px;
     transition: 0.5s;
+    font-size:16px;
 }
 input.sixtythree {
     background-color: #0c0b09;
@@ -944,4 +975,71 @@ a.last30:hover {
 }
 h3.mm {
     font-size: 28px;
+}
+li.jjg {
+    width: 96%;
+    line-height: 1.44;
+}
+span.\31 1box {
+    padding-left: 17px;
+}
+span.content1:hover {
+    color: #cda45e;
+}
+span.content1 {
+    color: rgba(255, 255, 255, 0.7);
+}
+span.content1:hover{
+    text-decoration: underline;
+}
+i.fa-solid.fa-mobile{
+    color: #cda45e;
+}
+.two {
+     font-family:"Roboto", sans-serif;
+     display:flex;
+     gap:12px;
+}
+.content4 {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.vhh {
+    margin-left: 13px;
+}
+p.para160 {
+    background-color: color-mix(in srgb, rgba(255, 255, 255, 0.7), transparent 97%);
+    color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    line-height: 1.50;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    width: 69%;
+    margin-bottom: 0px;
+}
+i.fa-solid.fa-envelope {
+    color: #cda45e;
+    padding-right: 4px;
+}
+.last15 {
+    margin-top: 33px;
+}
+.box811:hover {
+    border: 1px solid #cda45e;
+    color: #cda45e;
+}
+i.fa-solid.fa-location-dot {
+     background-color: #cda45e;
+    padding: 10px;
+    border-radius:2px;
+}
+.two {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    gap: 12px;
+    margin-right: 5rem;
+}
+i.fa-solid.fa-angle-down {
+    font-size: 14px;
 }

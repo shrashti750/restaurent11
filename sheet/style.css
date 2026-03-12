@@ -22,11 +22,12 @@ body{
 .first {
     display: flex;
     justify-content: space-between;
-    align-items:center;
-    height:40px;
-    position:absolute;
-    width:90%;
-    font-size:14px;
+    align-items: center;
+    height: 40px;
+    position: absolute;
+    width: 90%;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
 }
 
 span.last10 {
@@ -102,7 +103,7 @@ header {
     width: 100%;
     top: 40px;
 }
-logo {
+h1.logo {
     font-size: 30px;
     color: #ffffff;
     font-weight: 700;
@@ -132,6 +133,7 @@ h1.kk {
     font-size: 48px;
     font-weight: 700;
     margin: 0;
+    font-family: "Playfair Display", serif;
 }
 p.para1 {
     color: rgba(255, 255, 255, 0.7);
@@ -182,9 +184,9 @@ h2 {
     margin-bottom:0;
     font-size:17px;
 }
-
 h3.para44 {
     margin-top: 17px;
+    font-family: "Playfair Display", serif;
 }
 
 p.para3 {
@@ -206,6 +208,7 @@ li {
 }
 li.content {
     line-height: 2.30;
+    font-family: "Roboto", sans-serif;
 }
 i.fa-solid.fa-check-double {
     color: #cda45e;
@@ -239,10 +242,12 @@ i.fa-solid.fa-play::after {
 }
 p.para5 {
     color: #cda45e;
-    font-size:36px;
-    margin-top:0;
+    font-size: 36px;
+    margin-top: 0;
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    padding-bottom: 28px;
 }
-
 section.banner-section2 {
     background-color: #0c0b09;
     padding-top:4rem;
@@ -252,8 +257,9 @@ h3 {
     color: #ffffff;
     font-size: 24px;
     font-weight: 600;
-    margin-bottom:3px;
-    margin-top:0px;
+    margin-bottom: 3px;
+    margin-top: 0px;
+    font-family: "Playfair Display", serif;
 }
 p.para6 {
     color: color-mix(in srgb, rgba(255, 255, 255, 0.7),transparent 30%);
@@ -276,6 +282,7 @@ span.third{
     position:relative;
     transition:0.5s;
     cursor:pointer;
+    border-radius:2px;
 }
 .box9:hover {
     background-color: #cda45e;
@@ -294,9 +301,9 @@ h2::after {
     left: 94px;
     top: 7px;
 }
-h2.mm {
-    color: #ffffff;
-    font-size: 30px;
+h3.mm {
+    font-size: 28px;
+    font-family: "Playfair Display", serif;
 }
 section.banner-section4 {
     padding-top: 3rem;
@@ -309,12 +316,14 @@ section.banner-section4 {
     padding-top:3rem;
     padding-bottom:4rem;
 }
+
 ul.twenty {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 25px;
-    margin-bottom:3rem;
+    margin-bottom: 3rem;
+    font-family: "Playfair Display", serif;
 }
 a.ten:hover {
     color: #cda45e;
@@ -327,20 +336,23 @@ a.Eight:hover{
 }
 .box55 {
     display: grid;
-    grid-template-columns: 45% 45%;
+    grid-template-columns:50% 50%;
     font-family: "Roboto", sans-serif;
     justify-content:space-between;
     gap:38px;
 }
 .box56 {
     display: flex;
-    gap: 35px;
-    align-items:center;
+    gap: 18px;
 }
 a.box57 {
     color: #ffffff;
     background-color: #0c0b09;
-    
+    transition:0.3;
+    font-weight:700;
+}
+a.box57:hover {
+    color: #cda45e;
 }
 span.box58 {
     color: #cda45e;
@@ -356,7 +368,9 @@ p.box59 {
     font-style: italic;
     font-size: 14px;
     color: color-mix(in srgb, rgba(255, 255, 255, 0.7), transparent 50%);
-    margin-top:5px;
+    margin-top: 5px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
 }
 section.banner-section5 {
     background-color: #0c0b09;
@@ -371,7 +385,9 @@ a.box63 {
 }
 a.box64 {
     color: #ffffff;
-    padding-left:10px;
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 15px;
 }
 p.box71{
  color:color-mix(in srgb,rgba(255, 255, 255, 0.7),transparent 20%);
@@ -389,10 +405,11 @@ img.box73 {
 }
 .box77 {
     display: grid;
-    grid-template-columns: 66% 35%;
+    grid-template-columns: 66% 32%;
     justify-content: center;
     align-items: center;
 }
+
 .box70 {
     display: grid;
     grid-template-columns: auto auto;
@@ -496,23 +513,26 @@ h2.fourty{
     gap: 18px;
     justify-content: center;
 }
-input#name{
+input#name {
     background-color: #0c0b09;
     border: 1px solid color-mix(in srgb,rgba(255, 255, 255, 0.7) , transparent 80%);
-    height:40px;
-    width:331px;
+    height: 40px;
+    width: 342px;
+    color: rgba(255, 255, 255, 0.7);
 }
 input#email{
     background-color: #0c0b09;
      border: 1px solid color-mix(in srgb,rgba(255, 255, 255, 0.7) , transparent 80%);
      height:40px;
-     width:331px;
+     width:342px;
+     color: rgba(255, 255, 255, 0.7);
 }
 
 input#tel{
     background-color: #0c0b09;
      border: 1px solid color-mix(in srgb,rgba(255, 255, 255, 0.7) , transparent 80%);
      height:40px;
+     color: rgba(255, 255, 255, 0.7);
 }
 input#date {
     background-color: #0c0b09;
@@ -532,11 +552,13 @@ input#number{
     background-color: #0c0b09;
      border: 1px solid color-mix(in srgb,rgba(255, 255, 255, 0.7) , transparent 80%);
      height:40px;
-}
+     color: rgba(255, 255, 255, 0.7);
 
-textarea{
-      background-color: #0c0b09;
-       border: 1px solid color-mix(in srgb,rgba(255, 255, 255, 0.7) , transparent 80%);
+}
+textarea {
+    background-color: #0c0b09;
+    border: 1px solid color-mix(in srgb,rgba(255, 255, 255, 0.7) , transparent 80%);
+    color: rgba(255, 255, 255, 0.7);
 }
 .btnbtn {
     display: flex;
@@ -603,10 +625,11 @@ section.banner-section8 {
     padding-top:3rem;
 }
 img.hun {
-    width: 335px;
     transition: all ease-in-out 0.4s;
     border-right: 3px solid #0c0b09;
     border-bottom: 3px solid #0c0b09;
+    max-width:100%;
+    height:auto;
 }
 .box101 {
     display: grid;
@@ -634,6 +657,7 @@ section.banner-section9 {
 }
 h4 {
     color: #ffffff;
+    font-family: "Playfair Display", serif;
 }
 span.box105 {
     color: #ffffff;
@@ -691,7 +715,7 @@ p.para155 {
     padding: 18px;
     width: 76%;
     color: rgba(255, 255, 255, 0.7);
-    padding:20px;
+    padding:25px;
 }
 p.para156 {
     background-color: color-mix(in srgb, rgba(255, 255, 255, 0.7), transparent 97%);
@@ -702,6 +726,7 @@ p.para156 {
     font-style: italic;
     width: 70%;
     margin-bottom: 0px;
+    padding-inline:36px
 }
 iframe {
     width: 100%;
@@ -714,13 +739,15 @@ iframe {
 }
 i.fa-solid.fa-phone {
     background-color: #cda45e;
-    padding: 10px;
     border-radius:2px;
+    padding-block:12px;
+    padding-inline:10px;
 }
 i.fa-regular.fa-envelope {
     background-color: #cda45e;
-    padding: 10px;
     border-radius:2px;
+     padding-block:12px;
+    padding-inline:10px;
 }
 p.para8 {
     color: rgba(255, 255, 255, 0.7);
@@ -744,7 +771,7 @@ input#text {
 .box122 {
     display: grid;
     gap: 23px;
-    margin-top:3rem;
+    margin-top:5rem;
 }
 .box131 {
     background-color: #0c0b09;
@@ -843,16 +870,14 @@ button.btnnss {
 input.sixtythree {
     height: 50px;
     border: 2px solid color-mix(in srgb,#cda45e, transparent 70%);
-    padding-left:13px;
-    width:345px;
-    background-color:color-mix(in srgb,#0c0b09, transparent 50%);
+    padding-left: 13px;
+    width: 345px;
+    background-color: color-mix(in srgb,#0c0b09, transparent 50%);
+    color: rgba(255, 255, 255, 0.7);
 }
-input.sixtynine {
-    height: 50px;
-    border: 2px solid color-mix(in srgb,#cda45e, transparent 70%);
-    padding-left:13px;
-    width:345px;
-    background-color:color-mix(in srgb,#0c0b09, transparent 50%);
+
+input.sixtythree::placeholder{
+    color: color-mix(in srgb,#cda45e, transparent 70%);
 }
 input.sixtynine::placeholder{
     color: color-mix(in srgb,#cda45e, transparent 70%);
@@ -861,18 +886,14 @@ input.sixtynine::placeholder{
     display: flex;
     gap: 34px;
 }
-input.sixtythree::placeholder {
-    color: color-mix(in srgb,#cda45e, transparent 70%);
-}
 textarea.sixtyfour {
      border: 2px solid color-mix(in srgb,#cda45e, transparent 70%);
      padding-top:10px;
      padding-left:10px;
       font-family:"Roboto", sans-serif;
         background-color:color-mix(in srgb,#0c0b09, transparent 50%);
+color: rgba(255, 255, 255, 0.7);
 }
-
-
 textarea.sixtyfour::placeholder{
     color: color-mix(in srgb,#cda45e, transparent 70%);
 }
@@ -884,7 +905,13 @@ a.last2 {
     color: #cda45e;
     transition:0.5s;
 }
-
+input#text {
+    border: none;
+    background-color: color-mix(in srgb,#0c0b09, transparent 50%);
+    border: 2px solid color-mix(in srgb,#cda45e, transparent 70%);
+    padding-left: 13px;
+    color: rgba(255, 255, 255, 0.7);
+}
 a.last2:hover{
     color:color-mix(in srgb, #cda45e, transparent 25%);
 }
@@ -992,6 +1019,7 @@ h3.mm {
 li.jjg {
     width: 96%;
     line-height: 1.44;
+    font-family: "Roboto", sans-serif;
 }
 span.\31 1box {
     padding-left: 17px;
@@ -1043,9 +1071,10 @@ i.fa-solid.fa-envelope {
     color: #cda45e;
 }
 i.fa-solid.fa-location-dot {
-     background-color: #cda45e;
-    padding: 10px;
-    border-radius:2px;
+    background-color: #cda45e;
+    border-radius: 3px;
+    padding-block: 12px;
+    padding-inline: 10px;
 }
 .two {
     font-family: "Roboto", sans-serif;
@@ -1055,4 +1084,13 @@ i.fa-solid.fa-location-dot {
 }
 i.fa-solid.fa-angle-down {
     font-size: 14px;
+}
+h3.imghead {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 3px;
+    margin-top: 0px;
+    font-family: "Playfair Display", serif;
+    padding-top:10px;
 }
